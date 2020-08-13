@@ -28,7 +28,7 @@ li{
 
 li a{
     display: block;
-    color: cornsilk;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -39,5 +39,7 @@ li a i{
 }
 
 li a:hover{
-    background-color: #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
 }
