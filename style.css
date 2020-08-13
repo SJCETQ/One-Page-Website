@@ -1,3 +1,43 @@
-h1{
-    color: blue;
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+
+}
+
+.navbar{
+    height: 80px;
+    width: auto;
+    font: 25px;
+    background-color: coral;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-transform: uppercase;
+    
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: cornsilk;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a i{
+    font-size: 60px;
+}
+
+li a:hover{
+    background-color: #ffffff;
 }
